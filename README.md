@@ -1,4 +1,4 @@
-# Sociall Digital Core
+# Sociall Digital
 
 ## 📝 Descrição
 Aplicação web full stack desenvolvida para a Agência de Marketing e Publicidade Sociall Digital. O projeto oferece funcionalidades essenciais para a visibilidade da Agência, como blog, portfólio de projetos, formulário de contato e sistema de login.
