@@ -1,0 +1,6 @@
+.logo-center {
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(0 0 1px #000000) 
+            drop-shadow(0 0 1px #000000);
+}

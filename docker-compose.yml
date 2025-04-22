@@ -1,0 +1,11 @@
+services:
+  sociall_digital_web:
+    container_name: sociall_digital_web
+    build:
+      context: .
+    ports:
+      - 8000:8000
+    volumes:
+      - ./src:/src
+    env_file:
+      - ./env_files/.env

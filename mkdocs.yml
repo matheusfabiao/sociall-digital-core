@@ -1,0 +1,18 @@
+site_name: Sociall Digital
+site_description: Documentação do site da Sociall Digital
+site_author: Matheus Fabião
+repo_url: https://github.com/matheusfabiao/sociall-digital-core
+repo_name: Sociall Digital Core
+edit_uri: tree/main/docs
+
+theme:
+  name: material
+  language: pt-BR
+  favicon: assets/img/logo.png
+  logo: assets/img/logo.png
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css

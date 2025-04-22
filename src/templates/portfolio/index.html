@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load django_vite %}
+
+{% block css %}
+    {% vite_asset 'src/static/js/main.js' %}
+    {% vite_hmr_client %}
+{% endblock css %}
+
+{% block content %}
+    <div class="min-h-screen bg-base-200 flex items-center justify-center">
+        <div 
+            x-data="{ count: 0 }"
+            class="card w-96 bg-base-100 shadow-xl"
+        >
+            <div class="card-body items-center text-center">
+                <h2 class="card-title text-primary">Testing Libraries</h2>
+                <p class="text-base-content">
+                    Count: <span x-text="count" class="font-bold"></span>
+                </p>
+                <div class="card-actions">
+                    <button 
+                        @click="count++"
+                        class="btn btn-primary"
+                    >
+                        Increment
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
